@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# Script Name:                  Append; Date and Time
+# Script Name:                  Ops 301 Challenge 02
 # Author:                       Brad Baack
 # Date of latest revision:      03/26/2024
+# Purpose:                      Timestamp a log file 
 
 
 cp /var/log/syslog "syslog_$(date '+%Y-%m-%d_%H-%M-%S')"
