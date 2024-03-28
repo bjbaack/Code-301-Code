@@ -10,7 +10,7 @@ echo "Enter the full path to the directory you want to modify:"
 read directory
 
 # Ask user for input permissions number
-echo "Enter the permissions number:"
+echo "Enter the permissions number (ex. 777, 755 etc.):"
 read permissions
 
 
