@@ -15,7 +15,7 @@ read permissions
 
 
 # Navigates to the directory input by the user and changes all files inside it to the input setting
-chmod -R $permissions "$directory"
+chmod -R $permissions $directory
 
 #Prints to the screen the directory contents and the new permissions settings of everything in the directory.
-ls -al "$directory"
+ls -al $directory
