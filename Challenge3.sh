@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Script:                       Ops 301 Ops Chall ##
-# Author:                       Your Name
-# Date of latest revision:      MM/DD/YYYY
-# Purpose: xxx
+# Script:                       Ops 301 Ops Chall #3
+# Author:                       Brad Baack
+# Date of latest revision:      03/27/2024
+# Purpose:                      
 
 # Prompt user for input directory path
 echo "Enter the full path to the directory you want to modify:"
