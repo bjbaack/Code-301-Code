@@ -1,0 +1,349 @@
+Mar 31 00:00:04 bradbaack-OptiPlex-990 systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 726 (rsyslogd) on client request.
+Mar 31 00:00:04 bradbaack-OptiPlex-990 systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 726 (rsyslogd) on client request.
+Mar 31 00:00:04 bradbaack-OptiPlex-990 rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="726" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Mar 31 00:00:04 bradbaack-OptiPlex-990 systemd[1]: logrotate.service: Deactivated successfully.
+Mar 31 00:00:04 bradbaack-OptiPlex-990 systemd[1]: Finished Rotate log files.
+Mar 31 00:00:26 bradbaack-OptiPlex-990 kernel: [462653.926546] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:02:32 bradbaack-OptiPlex-990 kernel: [462779.026088] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:04:37 bradbaack-OptiPlex-990 kernel: [462904.125081] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:06:42 bradbaack-OptiPlex-990 kernel: [463029.224324] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:08:47 bradbaack-OptiPlex-990 kernel: [463154.323590] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:10:52 bradbaack-OptiPlex-990 kernel: [463279.422829] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:12:45 bradbaack-OptiPlex-990 systemd[1]: Starting Daily apt download activities...
+Mar 31 00:12:45 bradbaack-OptiPlex-990 systemd[1]: Starting Update APT News...
+Mar 31 00:12:45 bradbaack-OptiPlex-990 systemd[1]: Starting Update the local ESM caches...
+Mar 31 00:12:46 bradbaack-OptiPlex-990 systemd[1]: apt-news.service: Deactivated successfully.
+Mar 31 00:12:46 bradbaack-OptiPlex-990 systemd[1]: Finished Update APT News.
+Mar 31 00:12:46 bradbaack-OptiPlex-990 systemd[1]: esm-cache.service: Deactivated successfully.
+Mar 31 00:12:46 bradbaack-OptiPlex-990 systemd[1]: Finished Update the local ESM caches.
+Mar 31 00:12:54 bradbaack-OptiPlex-990 systemd[1]: apt-daily.service: Deactivated successfully.
+Mar 31 00:12:54 bradbaack-OptiPlex-990 systemd[1]: Finished Daily apt download activities.
+Mar 31 00:12:54 bradbaack-OptiPlex-990 systemd[1]: apt-daily.service: Consumed 8.072s CPU time.
+Mar 31 00:12:55 bradbaack-OptiPlex-990 update-notifier.desktop[44643]: Error executing command as another user: Not authorized
+Mar 31 00:12:55 bradbaack-OptiPlex-990 update-notifier.desktop[44643]: This incident has been reported.
+Mar 31 00:12:56 bradbaack-OptiPlex-990 update-notifier.desktop[44646]: #015Reading package lists... 0%#015#015Reading package lists... 100%#015#015Reading package lists... Done
+Mar 31 00:12:56 bradbaack-OptiPlex-990 update-notifier.desktop[44646]: #015Building dependency tree... 0%#015#015Building dependency tree... 0%#015#015Building dependency tree... 50%#015#015Building dependency tree... 50%#015#015Building dependency tree... Done
+Mar 31 00:12:56 bradbaack-OptiPlex-990 update-notifier.desktop[44646]: #015Reading state information... 0% #015#015Reading state information... 0%#015#015Reading state information... Done
+Mar 31 00:12:57 bradbaack-OptiPlex-990 kernel: [463404.522063] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:15:02 bradbaack-OptiPlex-990 kernel: [463529.621299] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:15:21 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 00:17:01 bradbaack-OptiPlex-990 CRON[44700]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 31 00:17:07 bradbaack-OptiPlex-990 kernel: [463654.720596] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:19:12 bradbaack-OptiPlex-990 kernel: [463779.819866] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:21:17 bradbaack-OptiPlex-990 kernel: [463904.919092] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:23:23 bradbaack-OptiPlex-990 kernel: [464030.018341] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:25:28 bradbaack-OptiPlex-990 kernel: [464155.117619] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:27:33 bradbaack-OptiPlex-990 kernel: [464280.216864] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:29:38 bradbaack-OptiPlex-990 kernel: [464405.316123] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:31:43 bradbaack-OptiPlex-990 kernel: [464530.415370] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:33:48 bradbaack-OptiPlex-990 kernel: [464655.514641] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:35:53 bradbaack-OptiPlex-990 kernel: [464780.613893] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:37:58 bradbaack-OptiPlex-990 kernel: [464905.713148] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:40:03 bradbaack-OptiPlex-990 kernel: [465030.812413] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:42:08 bradbaack-OptiPlex-990 kernel: [465155.911661] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:43:38 bradbaack-OptiPlex-990 NetworkManager[710]: <info>  [1711863818.5664] dhcp4 (eno1): state changed new lease, address=192.168.0.225
+Mar 31 00:44:13 bradbaack-OptiPlex-990 kernel: [465280.942562] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:45:32 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 00:46:19 bradbaack-OptiPlex-990 kernel: [465406.040142] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:48:24 bradbaack-OptiPlex-990 kernel: [465531.139426] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:50:29 bradbaack-OptiPlex-990 kernel: [465656.238657] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:52:34 bradbaack-OptiPlex-990 kernel: [465781.337987] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:54:39 bradbaack-OptiPlex-990 kernel: [465906.437273] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:56:44 bradbaack-OptiPlex-990 kernel: [466031.536427] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 00:58:49 bradbaack-OptiPlex-990 kernel: [466156.635684] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:00:54 bradbaack-OptiPlex-990 kernel: [466281.734927] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:02:59 bradbaack-OptiPlex-990 kernel: [466406.834189] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:05:04 bradbaack-OptiPlex-990 kernel: [466531.933425] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:07:10 bradbaack-OptiPlex-990 kernel: [466657.032665] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:09:15 bradbaack-OptiPlex-990 kernel: [466782.131946] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:11:20 bradbaack-OptiPlex-990 kernel: [466907.231189] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:13:25 bradbaack-OptiPlex-990 kernel: [467032.330423] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:15:30 bradbaack-OptiPlex-990 kernel: [467157.429682] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:15:42 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 01:17:01 bradbaack-OptiPlex-990 CRON[44732]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 31 01:17:35 bradbaack-OptiPlex-990 kernel: [467282.528924] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:19:40 bradbaack-OptiPlex-990 kernel: [467407.628179] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:21:45 bradbaack-OptiPlex-990 kernel: [467532.727412] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:23:50 bradbaack-OptiPlex-990 kernel: [467657.826655] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:25:55 bradbaack-OptiPlex-990 kernel: [467782.925900] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:28:01 bradbaack-OptiPlex-990 kernel: [467908.025165] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:30:06 bradbaack-OptiPlex-990 kernel: [468033.124377] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:32:11 bradbaack-OptiPlex-990 kernel: [468158.223619] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:34:16 bradbaack-OptiPlex-990 kernel: [468283.322876] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:36:15 bradbaack-OptiPlex-990 NetworkManager[710]: <info>  [1711866975.5668] dhcp4 (eno1): state changed new lease, address=192.168.0.225
+Mar 31 01:36:21 bradbaack-OptiPlex-990 kernel: [468408.332963] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:38:26 bradbaack-OptiPlex-990 kernel: [468533.431532] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:40:31 bradbaack-OptiPlex-990 kernel: [468658.530749] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:42:36 bradbaack-OptiPlex-990 kernel: [468783.630046] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:44:41 bradbaack-OptiPlex-990 kernel: [468908.729246] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:45:52 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 01:46:46 bradbaack-OptiPlex-990 kernel: [469033.828497] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:48:52 bradbaack-OptiPlex-990 kernel: [469158.927722] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:50:57 bradbaack-OptiPlex-990 kernel: [469284.026953] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:53:02 bradbaack-OptiPlex-990 kernel: [469409.126467] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:55:07 bradbaack-OptiPlex-990 kernel: [469534.225431] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:57:12 bradbaack-OptiPlex-990 kernel: [469659.324680] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 01:59:17 bradbaack-OptiPlex-990 kernel: [469784.423942] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:01:22 bradbaack-OptiPlex-990 kernel: [469909.523106] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:03:27 bradbaack-OptiPlex-990 kernel: [470034.622438] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:05:32 bradbaack-OptiPlex-990 kernel: [470159.721646] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:07:37 bradbaack-OptiPlex-990 kernel: [470284.820881] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:09:43 bradbaack-OptiPlex-990 kernel: [470409.920117] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:11:48 bradbaack-OptiPlex-990 kernel: [470535.019360] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:13:53 bradbaack-OptiPlex-990 kernel: [470660.118578] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:15:58 bradbaack-OptiPlex-990 kernel: [470785.217876] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:16:02 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 02:17:01 bradbaack-OptiPlex-990 CRON[44767]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 31 02:18:03 bradbaack-OptiPlex-990 kernel: [470910.317075] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:20:08 bradbaack-OptiPlex-990 kernel: [471035.416325] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:22:13 bradbaack-OptiPlex-990 kernel: [471160.515507] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:24:18 bradbaack-OptiPlex-990 kernel: [471285.614795] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:26:23 bradbaack-OptiPlex-990 kernel: [471410.716270] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:28:28 bradbaack-OptiPlex-990 kernel: [471535.813288] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:29:31 bradbaack-OptiPlex-990 systemd[1]: Starting Process error reports when automatic reporting is enabled...
+Mar 31 02:29:31 bradbaack-OptiPlex-990 whoopsie-upload-all[44773]: INFO:root:/var/crash/_usr_bin_file-roller.1000.crash already marked for upload, skipping
+Mar 31 02:29:31 bradbaack-OptiPlex-990 whoopsie-upload-all[44773]: INFO:root:Waiting for whoopsie to upload reports (timeout: 20 s)
+Mar 31 02:29:31 bradbaack-OptiPlex-990 whoopsie-upload-all[44773]: INFO:root:All reports uploaded successfully
+Mar 31 02:29:31 bradbaack-OptiPlex-990 systemd[1]: Started crash report submission.
+Mar 31 02:29:31 bradbaack-OptiPlex-990 systemd[1]: apport-autoreport.service: Deactivated successfully.
+Mar 31 02:29:31 bradbaack-OptiPlex-990 systemd[1]: Finished Process error reports when automatic reporting is enabled.
+Mar 31 02:29:31 bradbaack-OptiPlex-990 whoopsie[44775]: [02:29:31] Using lock path: /var/lock/whoopsie/lock
+Mar 31 02:29:31 bradbaack-OptiPlex-990 systemd[1]: whoopsie.service: Deactivated successfully.
+Mar 31 02:30:34 bradbaack-OptiPlex-990 kernel: [471660.912505] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:32:14 bradbaack-OptiPlex-990 NetworkManager[710]: <info>  [1711870334.5668] dhcp4 (eno1): state changed new lease, address=192.168.0.225
+Mar 31 02:32:39 bradbaack-OptiPlex-990 kernel: [471785.931624] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:34:44 bradbaack-OptiPlex-990 kernel: [471911.032502] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:36:49 bradbaack-OptiPlex-990 kernel: [472036.130116] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:38:54 bradbaack-OptiPlex-990 kernel: [472161.229363] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:40:59 bradbaack-OptiPlex-990 kernel: [472286.328596] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:43:04 bradbaack-OptiPlex-990 kernel: [472411.427897] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:45:09 bradbaack-OptiPlex-990 kernel: [472536.527359] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:46:12 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 02:47:14 bradbaack-OptiPlex-990 kernel: [472661.626374] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:49:19 bradbaack-OptiPlex-990 kernel: [472786.725657] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:51:24 bradbaack-OptiPlex-990 kernel: [472911.824926] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:53:30 bradbaack-OptiPlex-990 kernel: [473036.924194] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:55:35 bradbaack-OptiPlex-990 kernel: [473162.023504] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:57:40 bradbaack-OptiPlex-990 kernel: [473287.122748] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 02:59:45 bradbaack-OptiPlex-990 kernel: [473412.222181] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:01:50 bradbaack-OptiPlex-990 kernel: [473537.321274] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:03:55 bradbaack-OptiPlex-990 kernel: [473662.420547] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:06:00 bradbaack-OptiPlex-990 kernel: [473787.519826] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:08:05 bradbaack-OptiPlex-990 kernel: [473912.619110] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:10:01 bradbaack-OptiPlex-990 CRON[44807]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+Mar 31 03:10:10 bradbaack-OptiPlex-990 kernel: [474037.718368] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:10:31 bradbaack-OptiPlex-990 systemd[1]: Starting Online ext4 Metadata Check for All Filesystems...
+Mar 31 03:10:31 bradbaack-OptiPlex-990 systemd[1]: e2scrub_all.service: Deactivated successfully.
+Mar 31 03:10:31 bradbaack-OptiPlex-990 systemd[1]: Finished Online ext4 Metadata Check for All Filesystems.
+Mar 31 03:12:15 bradbaack-OptiPlex-990 kernel: [474162.817674] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:14:21 bradbaack-OptiPlex-990 kernel: [474287.916946] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:16:22 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 03:16:26 bradbaack-OptiPlex-990 kernel: [474413.016232] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:17:01 bradbaack-OptiPlex-990 CRON[44812]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 31 03:18:31 bradbaack-OptiPlex-990 kernel: [474538.115488] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:20:36 bradbaack-OptiPlex-990 kernel: [474663.214800] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:22:41 bradbaack-OptiPlex-990 kernel: [474788.314092] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:24:46 bradbaack-OptiPlex-990 kernel: [474913.413380] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:26:51 bradbaack-OptiPlex-990 kernel: [475038.512650] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:27:39 bradbaack-OptiPlex-990 NetworkManager[710]: <info>  [1711873659.5666] dhcp4 (eno1): state changed new lease, address=192.168.0.225
+Mar 31 03:28:56 bradbaack-OptiPlex-990 kernel: [475163.592130] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:30:01 bradbaack-OptiPlex-990 CRON[44823]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /usr/lib/x86_64-linux-gnu/e2fsprogs/e2scrub_all_cron)
+Mar 31 03:31:01 bradbaack-OptiPlex-990 kernel: [475288.692752] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:33:06 bradbaack-OptiPlex-990 kernel: [475413.790726] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:35:12 bradbaack-OptiPlex-990 kernel: [475538.890009] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:37:17 bradbaack-OptiPlex-990 kernel: [475663.989294] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:39:22 bradbaack-OptiPlex-990 kernel: [475789.088581] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:41:27 bradbaack-OptiPlex-990 kernel: [475914.187885] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:43:32 bradbaack-OptiPlex-990 kernel: [476039.287168] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:45:37 bradbaack-OptiPlex-990 kernel: [476164.386455] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:46:32 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 03:47:42 bradbaack-OptiPlex-990 kernel: [476289.485775] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:49:47 bradbaack-OptiPlex-990 kernel: [476414.585067] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:51:52 bradbaack-OptiPlex-990 kernel: [476539.684355] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:53:57 bradbaack-OptiPlex-990 kernel: [476664.783643] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:56:03 bradbaack-OptiPlex-990 kernel: [476789.882960] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 03:56:31 bradbaack-OptiPlex-990 systemd[1]: Starting Message of the Day...
+Mar 31 03:56:31 bradbaack-OptiPlex-990 systemd[1]: motd-news.service: Deactivated successfully.
+Mar 31 03:56:31 bradbaack-OptiPlex-990 systemd[1]: Finished Message of the Day.
+Mar 31 03:58:08 bradbaack-OptiPlex-990 kernel: [476914.982254] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:00:13 bradbaack-OptiPlex-990 kernel: [477040.081544] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:02:18 bradbaack-OptiPlex-990 kernel: [477165.180854] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:04:23 bradbaack-OptiPlex-990 kernel: [477290.280144] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:06:28 bradbaack-OptiPlex-990 kernel: [477415.379443] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:08:33 bradbaack-OptiPlex-990 kernel: [477540.478739] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:10:38 bradbaack-OptiPlex-990 kernel: [477665.578095] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:12:43 bradbaack-OptiPlex-990 kernel: [477790.677352] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:14:48 bradbaack-OptiPlex-990 kernel: [477915.776661] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:16:42 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 04:16:54 bradbaack-OptiPlex-990 kernel: [478040.875956] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:17:01 bradbaack-OptiPlex-990 CRON[44849]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 31 04:18:59 bradbaack-OptiPlex-990 kernel: [478165.975236] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:21:04 bradbaack-OptiPlex-990 kernel: [478291.074512] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:21:26 bradbaack-OptiPlex-990 NetworkManager[710]: <info>  [1711876886.5631] dhcp4 (eno1): state changed new lease, address=192.168.0.225
+Mar 31 04:23:09 bradbaack-OptiPlex-990 kernel: [478416.173859] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:25:14 bradbaack-OptiPlex-990 kernel: [478541.273138] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:27:19 bradbaack-OptiPlex-990 kernel: [478666.372452] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:29:24 bradbaack-OptiPlex-990 kernel: [478791.471742] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:31:29 bradbaack-OptiPlex-990 kernel: [478916.571037] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:33:34 bradbaack-OptiPlex-990 kernel: [479041.670938] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:35:39 bradbaack-OptiPlex-990 kernel: [479166.769727] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:37:45 bradbaack-OptiPlex-990 kernel: [479291.868937] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:39:50 bradbaack-OptiPlex-990 kernel: [479416.968228] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:41:55 bradbaack-OptiPlex-990 kernel: [479542.067520] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:44:00 bradbaack-OptiPlex-990 kernel: [479667.166835] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:46:05 bradbaack-OptiPlex-990 kernel: [479792.266137] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:46:52 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 04:48:10 bradbaack-OptiPlex-990 kernel: [479917.365431] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:49:34 bradbaack-OptiPlex-990 snapd[729]: storehelpers.go:791: cannot refresh: snap has no updates available: "bare", "core20", "core22", "firefox", "gnome-3-38-2004", "gnome-42-2204", "gtk-common-themes", "htop", "snap-store", "snapd", "snapd-desktop-integration"
+Mar 31 04:50:15 bradbaack-OptiPlex-990 kernel: [480042.464748] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:52:20 bradbaack-OptiPlex-990 kernel: [480167.564042] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:54:25 bradbaack-OptiPlex-990 kernel: [480292.663349] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:56:31 bradbaack-OptiPlex-990 kernel: [480417.762642] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 04:58:36 bradbaack-OptiPlex-990 kernel: [480542.861934] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:00:41 bradbaack-OptiPlex-990 kernel: [480667.961232] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:02:46 bradbaack-OptiPlex-990 kernel: [480793.060531] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:04:51 bradbaack-OptiPlex-990 kernel: [480918.159809] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:06:56 bradbaack-OptiPlex-990 kernel: [481043.259116] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:09:01 bradbaack-OptiPlex-990 kernel: [481168.358626] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:11:06 bradbaack-OptiPlex-990 kernel: [481293.457760] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:13:11 bradbaack-OptiPlex-990 kernel: [481418.557034] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:14:40 bradbaack-OptiPlex-990 NetworkManager[710]: <info>  [1711880080.5627] dhcp4 (eno1): state changed new lease, address=192.168.0.225
+Mar 31 05:15:16 bradbaack-OptiPlex-990 kernel: [481543.586194] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:17:01 bradbaack-OptiPlex-990 CRON[44886]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 31 05:17:02 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 05:17:21 bradbaack-OptiPlex-990 kernel: [481668.685462] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:19:27 bradbaack-OptiPlex-990 kernel: [481793.784785] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:21:32 bradbaack-OptiPlex-990 kernel: [481918.884080] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:21:50 bradbaack-OptiPlex-990 systemd[1]: Starting Daily man-db regeneration...
+Mar 31 05:21:50 bradbaack-OptiPlex-990 systemd[1]: man-db.service: Deactivated successfully.
+Mar 31 05:21:50 bradbaack-OptiPlex-990 systemd[1]: Finished Daily man-db regeneration.
+Mar 31 05:23:37 bradbaack-OptiPlex-990 kernel: [482043.983379] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:25:42 bradbaack-OptiPlex-990 kernel: [482169.082672] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:27:47 bradbaack-OptiPlex-990 kernel: [482294.182006] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:29:33 bradbaack-OptiPlex-990 systemd[1]: Starting Process error reports when automatic reporting is enabled...
+Mar 31 05:29:33 bradbaack-OptiPlex-990 whoopsie-upload-all[44900]: INFO:root:/var/crash/_usr_bin_file-roller.1000.crash already marked for upload, skipping
+Mar 31 05:29:33 bradbaack-OptiPlex-990 whoopsie-upload-all[44900]: INFO:root:Waiting for whoopsie to upload reports (timeout: 20 s)
+Mar 31 05:29:33 bradbaack-OptiPlex-990 whoopsie-upload-all[44900]: INFO:root:All reports uploaded successfully
+Mar 31 05:29:33 bradbaack-OptiPlex-990 systemd[1]: Started crash report submission.
+Mar 31 05:29:33 bradbaack-OptiPlex-990 systemd[1]: apport-autoreport.service: Deactivated successfully.
+Mar 31 05:29:33 bradbaack-OptiPlex-990 systemd[1]: Finished Process error reports when automatic reporting is enabled.
+Mar 31 05:29:33 bradbaack-OptiPlex-990 whoopsie[44902]: [05:29:33] Using lock path: /var/lock/whoopsie/lock
+Mar 31 05:29:33 bradbaack-OptiPlex-990 systemd[1]: whoopsie.service: Deactivated successfully.
+Mar 31 05:29:52 bradbaack-OptiPlex-990 kernel: [482419.281270] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:31:57 bradbaack-OptiPlex-990 kernel: [482544.380569] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:34:02 bradbaack-OptiPlex-990 kernel: [482669.479928] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:36:07 bradbaack-OptiPlex-990 kernel: [482794.579542] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:38:12 bradbaack-OptiPlex-990 kernel: [482919.678480] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:40:18 bradbaack-OptiPlex-990 kernel: [483044.777773] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:42:23 bradbaack-OptiPlex-990 kernel: [483169.877060] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:44:28 bradbaack-OptiPlex-990 kernel: [483294.976362] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:46:33 bradbaack-OptiPlex-990 kernel: [483420.075695] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:47:12 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 05:48:38 bradbaack-OptiPlex-990 kernel: [483545.174963] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:50:43 bradbaack-OptiPlex-990 kernel: [483670.274256] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:52:48 bradbaack-OptiPlex-990 kernel: [483795.373560] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:54:53 bradbaack-OptiPlex-990 kernel: [483920.472863] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:56:58 bradbaack-OptiPlex-990 kernel: [484045.572188] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 05:59:03 bradbaack-OptiPlex-990 kernel: [484170.671436] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:01:09 bradbaack-OptiPlex-990 kernel: [484295.770731] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:03:14 bradbaack-OptiPlex-990 kernel: [484420.871694] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:05:19 bradbaack-OptiPlex-990 kernel: [484545.969352] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:07:24 bradbaack-OptiPlex-990 kernel: [484671.068605] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:07:47 bradbaack-OptiPlex-990 NetworkManager[710]: <info>  [1711883267.5638] dhcp4 (eno1): state changed new lease, address=192.168.0.225
+Mar 31 06:09:29 bradbaack-OptiPlex-990 kernel: [484796.167903] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:11:34 bradbaack-OptiPlex-990 kernel: [484921.267218] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:13:39 bradbaack-OptiPlex-990 kernel: [485046.366530] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:15:44 bradbaack-OptiPlex-990 kernel: [485171.465828] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:16:31 bradbaack-OptiPlex-990 systemd[1]: Starting Daily apt upgrade and clean activities...
+Mar 31 06:16:34 bradbaack-OptiPlex-990 systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+Mar 31 06:16:34 bradbaack-OptiPlex-990 systemd[1]: Finished Daily apt upgrade and clean activities.
+Mar 31 06:16:34 bradbaack-OptiPlex-990 systemd[1]: apt-daily-upgrade.service: Consumed 2.521s CPU time.
+Mar 31 06:17:01 bradbaack-OptiPlex-990 CRON[45007]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 31 06:17:22 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 06:17:49 bradbaack-OptiPlex-990 kernel: [485296.565131] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:19:54 bradbaack-OptiPlex-990 kernel: [485421.664404] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:22:00 bradbaack-OptiPlex-990 kernel: [485546.763698] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:24:05 bradbaack-OptiPlex-990 kernel: [485671.863011] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:25:01 bradbaack-OptiPlex-990 CRON[45014]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Mar 31 06:26:10 bradbaack-OptiPlex-990 kernel: [485796.962315] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:28:15 bradbaack-OptiPlex-990 kernel: [485922.061592] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:30:20 bradbaack-OptiPlex-990 kernel: [486047.160906] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:32:25 bradbaack-OptiPlex-990 kernel: [486172.260205] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:34:30 bradbaack-OptiPlex-990 kernel: [486297.359768] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:36:35 bradbaack-OptiPlex-990 kernel: [486422.458809] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:38:40 bradbaack-OptiPlex-990 kernel: [486547.558118] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:40:45 bradbaack-OptiPlex-990 kernel: [486672.657396] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:42:51 bradbaack-OptiPlex-990 kernel: [486797.759250] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:44:56 bradbaack-OptiPlex-990 kernel: [486922.855991] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:47:01 bradbaack-OptiPlex-990 kernel: [487047.955303] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:47:01 bradbaack-OptiPlex-990 CRON[45027]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly ))
+Mar 31 06:47:32 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 06:49:06 bradbaack-OptiPlex-990 kernel: [487173.054569] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:51:11 bradbaack-OptiPlex-990 kernel: [487298.153938] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:53:16 bradbaack-OptiPlex-990 kernel: [487423.253187] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:55:21 bradbaack-OptiPlex-990 kernel: [487548.352518] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:57:26 bradbaack-OptiPlex-990 kernel: [487673.451799] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 06:59:31 bradbaack-OptiPlex-990 kernel: [487798.551089] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:01:36 bradbaack-OptiPlex-990 kernel: [487923.650378] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:03:42 bradbaack-OptiPlex-990 kernel: [488048.749692] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:03:56 bradbaack-OptiPlex-990 NetworkManager[710]: <info>  [1711886636.5635] dhcp4 (eno1): state changed new lease, address=192.168.0.225
+Mar 31 07:05:47 bradbaack-OptiPlex-990 kernel: [488173.848997] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:07:52 bradbaack-OptiPlex-990 kernel: [488298.948295] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:09:57 bradbaack-OptiPlex-990 kernel: [488424.047617] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:12:02 bradbaack-OptiPlex-990 kernel: [488549.146879] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:14:07 bradbaack-OptiPlex-990 kernel: [488674.246182] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:16:12 bradbaack-OptiPlex-990 kernel: [488799.345476] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:17:01 bradbaack-OptiPlex-990 CRON[45044]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar 31 07:17:43 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 07:18:17 bradbaack-OptiPlex-990 kernel: [488924.444784] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:20:22 bradbaack-OptiPlex-990 kernel: [489049.544061] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:22:27 bradbaack-OptiPlex-990 kernel: [489174.643362] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:24:33 bradbaack-OptiPlex-990 kernel: [489299.742670] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:26:38 bradbaack-OptiPlex-990 kernel: [489424.841940] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:28:43 bradbaack-OptiPlex-990 kernel: [489549.941220] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:30:01 bradbaack-OptiPlex-990 CRON[45055]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Mar 31 07:30:48 bradbaack-OptiPlex-990 kernel: [489675.040511] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:32:31 bradbaack-OptiPlex-990 systemd[1]: Started Run anacron jobs.
+Mar 31 07:32:31 bradbaack-OptiPlex-990 anacron[45056]: Anacron 2.3 started on 2024-03-31
+Mar 31 07:32:31 bradbaack-OptiPlex-990 anacron[45056]: Will run job `cron.daily' in 5 min.
+Mar 31 07:32:31 bradbaack-OptiPlex-990 anacron[45056]: Jobs will be executed sequentially
+Mar 31 07:32:53 bradbaack-OptiPlex-990 kernel: [489800.139773] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:34:58 bradbaack-OptiPlex-990 kernel: [489925.239050] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:37:03 bradbaack-OptiPlex-990 kernel: [490050.338316] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:37:31 bradbaack-OptiPlex-990 anacron[45056]: Job `cron.daily' started
+Mar 31 07:37:31 bradbaack-OptiPlex-990 anacron[45067]: Updated timestamp for job `cron.daily' to 2024-03-31
+Mar 31 07:37:31 bradbaack-OptiPlex-990 cracklib: no dictionary update necessary.
+Mar 31 07:37:31 bradbaack-OptiPlex-990 anacron[45056]: Job `cron.daily' terminated
+Mar 31 07:37:31 bradbaack-OptiPlex-990 anacron[45056]: Normal exit (1 job run)
+Mar 31 07:37:31 bradbaack-OptiPlex-990 systemd[1]: anacron.service: Deactivated successfully.
+Mar 31 07:39:08 bradbaack-OptiPlex-990 kernel: [490175.437580] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:41:13 bradbaack-OptiPlex-990 kernel: [490300.536841] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:43:19 bradbaack-OptiPlex-990 kernel: [490425.636098] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:45:24 bradbaack-OptiPlex-990 kernel: [490550.735343] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:47:29 bradbaack-OptiPlex-990 kernel: [490675.834688] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:47:53 bradbaack-OptiPlex-990 ubuntu-report[2675]: level=error msg="data were not delivered successfully to metrics server, retrying in 1800s"
+Mar 31 07:49:34 bradbaack-OptiPlex-990 kernel: [490800.923871] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:51:39 bradbaack-OptiPlex-990 kernel: [490925.983098] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:51:48 bradbaack-OptiPlex-990 kernel: [490935.536111] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:fb:00:e0:4c:68:05:4b:08:00 SRC=192.168.0.197 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=6014 PROTO=2 
+Mar 31 07:53:44 bradbaack-OptiPlex-990 kernel: [491051.042457] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:53:48 bradbaack-OptiPlex-990 kernel: [491055.159619] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:fb:00:e0:4c:68:05:4b:08:00 SRC=192.168.0.197 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=56683 PROTO=2 
+Mar 31 07:55:49 bradbaack-OptiPlex-990 kernel: [491176.111709] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:55:58 bradbaack-OptiPlex-990 kernel: [491185.532981] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:fb:00:e0:4c:68:05:4b:08:00 SRC=192.168.0.197 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=25207 PROTO=2 
+Mar 31 07:57:54 bradbaack-OptiPlex-990 kernel: [491301.180905] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 07:58:08 bradbaack-OptiPlex-990 kernel: [491315.031157] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:fb:00:e0:4c:68:05:4b:08:00 SRC=192.168.0.197 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=21146 PROTO=2 
+Mar 31 07:58:11 bradbaack-OptiPlex-990 NetworkManager[710]: <info>  [1711889891.5634] dhcp4 (eno1): state changed new lease, address=192.168.0.225
+Mar 31 07:59:26 bradbaack-OptiPlex-990 systemd[1]: Started Session 254 of User bradbaack.
+Mar 31 07:59:27 bradbaack-OptiPlex-990 systemd[2664]: Starting Notification regarding a new release of Ubuntu...
+Mar 31 07:59:48 bradbaack-OptiPlex-990 check-new-release-gtk[45389]: WARNING:root:timeout reached, exiting
+Mar 31 07:59:48 bradbaack-OptiPlex-990 systemd[2664]: Finished Notification regarding a new release of Ubuntu.
+Mar 31 07:59:59 bradbaack-OptiPlex-990 kernel: [491426.263469] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 08:00:10 bradbaack-OptiPlex-990 kernel: [491436.904040] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:fb:00:e0:4c:68:05:4b:08:00 SRC=192.168.0.197 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=20208 PROTO=2 
+Mar 31 08:02:04 bradbaack-OptiPlex-990 kernel: [491551.339404] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 08:02:16 bradbaack-OptiPlex-990 kernel: [491563.027923] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:fb:00:e0:4c:68:05:4b:08:00 SRC=192.168.0.197 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=28542 PROTO=2 
+Mar 31 08:04:09 bradbaack-OptiPlex-990 kernel: [491676.428937] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 08:04:14 bradbaack-OptiPlex-990 kernel: [491681.150174] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:fb:00:e0:4c:68:05:4b:08:00 SRC=192.168.0.197 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=19773 PROTO=2 
+Mar 31 08:06:14 bradbaack-OptiPlex-990 kernel: [491801.527987] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 08:06:26 bradbaack-OptiPlex-990 kernel: [491812.774648] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:fb:00:e0:4c:68:05:4b:08:00 SRC=192.168.0.197 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=3274 PROTO=2 
+Mar 31 08:08:19 bradbaack-OptiPlex-990 kernel: [491926.537647] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 
+Mar 31 08:08:21 bradbaack-OptiPlex-990 kernel: [491928.022984] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:fb:00:e0:4c:68:05:4b:08:00 SRC=192.168.0.197 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=58018 PROTO=2 
+Mar 31 08:10:24 bradbaack-OptiPlex-990 kernel: [492051.546593] [UFW BLOCK] IN=eno1 OUT= MAC=01:00:5e:00:00:01:b4:b0:24:0e:3d:83:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=0 DF PROTO=2 

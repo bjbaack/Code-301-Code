@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 # Script:                       Ops 301 Ops Chall #5
 # Author:                       Brad Baack
